@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import { QueryProvider } from "@/components/providers/query-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { CartProvider } from "@/contexts/CartContext";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,7 +27,9 @@ export default function RootLayout({
         <QueryProvider>
           <CartProvider>
             <main className="flex-grow">
+              <Navbar/>
               {children}
+              <Footer/>
             </main>
             <Toaster />
           </CartProvider>

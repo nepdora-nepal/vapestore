@@ -6,9 +6,14 @@
   .text-balance {
     text-wrap: balance;
   }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
-
-
 
 @layer base {
   :root {
@@ -82,13 +87,12 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: #f5f2e8;
+    color: #233d2c;
   }
 }

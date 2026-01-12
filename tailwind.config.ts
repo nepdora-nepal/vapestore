@@ -59,8 +59,17 @@ const config: Config = {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+        'forest': '#1d4e1a',
+        'forest-light': '#2f4f3a',
+        'cream': '#FFF5E5',
+        'cream-dark': '#e6e2d6',
+        'accent-green': '#4a6b52'
   		},
+      fontFamily: {
+        sans: ['"DM Sans"', 'sans-serif'],
+        serif: ['"Playfair Display"', 'serif'],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -82,11 +91,21 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        'marquee-infinite': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+        'marquee': 'marquee 25s linear infinite',
+        'marquee-infinite': 'marquee-infinite 40s linear infinite',
   		}
   	}
   },
