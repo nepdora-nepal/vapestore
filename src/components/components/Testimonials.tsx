@@ -18,7 +18,7 @@ export const Testimonials: React.FC = () => {
 
                 {/* Row 1, Col 2: Image - Iced Coffee */}
                 <ImageCard 
-                    src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&q=80&w=800" 
+                    src="https://plus.unsplash.com/premium_photo-1723478478468-284b62233e75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZSUyMGRyaW5raW5nJTIwY29mZmVlfGVufDB8fDB8fHww" 
                     alt="Iced Latte Pour" 
                 />
 
@@ -27,7 +27,7 @@ export const Testimonials: React.FC = () => {
 
                 {/* Row 2, Col 1: Image - Pouring Milk */}
                 <ImageCard 
-                    src="https://images.unsplash.com/photo-1545229712-1473950c45b8?auto=format&fit=crop&q=80&w=800" 
+                    src="https://images.unsplash.com/photo-1536914561643-9e3a7a8d063d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBlb3BsZSUyMGRyaW5raW5nJTIwY29mZmVlfGVufDB8fDB8fHww" 
                     alt="Barista Pouring" 
                 />
 
@@ -36,7 +36,7 @@ export const Testimonials: React.FC = () => {
 
                 {/* Row 2, Col 3: Image - Latte Art */}
                 <ImageCard 
-                    src="https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?auto=format&fit=crop&q=80&w=800" 
+                    src="https://images.unsplash.com/photo-1608585269273-5cacd36870f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZSUyMGRyaW5raW5nJTIwY29mZmVlfGVufDB8fDB8fHww" 
                     alt="Latte Art" 
                 />
             </div>
